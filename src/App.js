@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import { CatComponent}  from './CatComponent.js';
+import {GraceHopperQuoteComponent} from './GraceHopperQuoteComponent.js'
+import MouseComponent from './MouseComponent';
+
+
 
 class App extends Component {
 	render() {
@@ -8,6 +13,7 @@ class App extends Component {
 				<CatComponent />
 				<GraceHopperQuoteComponent />
 				{/* one more component missing */}
+				<MouseComponent />
 			</div>
 		);
 	}
